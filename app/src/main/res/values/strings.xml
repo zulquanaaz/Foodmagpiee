@@ -1,19 +1,13 @@
 <resources>
-    <string name="app_name">Foodmagpie</string>
+    <string name="app_name">Food Recipies</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
     <string name="read_file">This app needs access to your file storage so that it can read photos.</string>
-    <string name="Open">Open navigation drawer</string>
-    <string name="Close">Close navigation drawer</string>
-    <array name="type">
-        <item>Hotel</item>
-        <item>Charity</item>
-        <item>User</item>
-    </array>
 
-
-    <array name="foodtype">
-        <item>Veg</item>
-        <item>Non-Veg</item>
-        <item>Fruits</item>
-    </array>
-
+    <string-array name="country_names">
+        <item>Select Country Name</item>
+        <item>chinese</item>
+        <item>Japanese</item>
+        <item>India</item>
+    </string-array>
 </resources>
