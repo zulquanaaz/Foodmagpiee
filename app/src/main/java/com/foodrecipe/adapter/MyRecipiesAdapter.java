@@ -80,7 +80,7 @@ public class MyRecipiesAdapter extends BaseAdapter {
         });
 
 
-
+//testing
         return obj2;
 
     }
