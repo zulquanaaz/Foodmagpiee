@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDonationActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:src="@drawable/logo"
+        android:layout_marginTop="0px"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Donate Now"
+        android:textSize="30dp"
+
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Select Hotel"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="left"/>
+
+    <Spinner
+        android:id="@+id/sphotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        />
+
+
+    <EditText
+        android:id="@+id/etfoodname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Food Name"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:focusedByDefault="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Select Food Type"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"/>
+
+    <Spinner
+        android:id="@+id/sptype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/foodtype"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/etquantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Quantity"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:focusedByDefault="true"
+        />
+
+
+
+    <Button
+        android:id="@+id/btndonate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+</LinearLayout>
