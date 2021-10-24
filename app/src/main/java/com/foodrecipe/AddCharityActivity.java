@@ -38,7 +38,6 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-//AddCharityActivity  Class
 public class AddCharityActivity extends AppCompatActivity implements EasyPermissions.PermissionCallbacks  {
 
     private static final int REQUEST_GALLERY_CODE = 200;
@@ -96,7 +95,6 @@ public class AddCharityActivity extends AppCompatActivity implements EasyPermiss
         });
 
     }
-    //Method for Result
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
