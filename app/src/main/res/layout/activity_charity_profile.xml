@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CharityProfileActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:src="@drawable/logo"
+
+        android:layout_marginTop="50px"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Account"
+        android:textSize="30dp"
+
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Full Name"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:focusedByDefault="true"
+        />
+
+
+    <EditText
+        android:editable="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:focusedByDefault="true"
+        />
+
+
+    <EditText
+        android:id="@+id/etphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:maxLength="10"
+        android:focusedByDefault="true"
+        />
+
+
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        />
+
+
+
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="Update"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+</LinearLayout>
