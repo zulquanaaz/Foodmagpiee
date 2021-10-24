@@ -121,7 +121,7 @@ public class LoginActivity extends AppCompatActivity {
                 }
 
             }
-
+           //Method will be executed on failure
             @Override
             public void onFailure(Call<ResponseData> call, Throwable t) {
                 progressDialog.dismiss();
