@@ -23,7 +23,7 @@ import java.util.regex.Pattern;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-
+//The Registration Activity class
 public class RegistrationActivity extends AppCompatActivity {
 
     EditText etname, etemail, etphone, etpass;
