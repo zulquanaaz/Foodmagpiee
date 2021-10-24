@@ -89,6 +89,7 @@ public class RequestFoodActivity extends AppCompatActivity {
                             }
                         }
 
+                        //Method Called on Failure
                         @Override
                         public void onFailure(Call<ResponseData> call, Throwable t) {
                             progress.dismiss();
