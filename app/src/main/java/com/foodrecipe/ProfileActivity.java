@@ -26,7 +26,7 @@ import java.util.List;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-
+//Added ProfileActivity Class
 public class ProfileActivity extends AppCompatActivity {
 
     EditText etname, etemail, etphone, etpass;
