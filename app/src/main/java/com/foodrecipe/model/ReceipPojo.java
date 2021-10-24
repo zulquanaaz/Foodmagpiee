@@ -1,7 +1,7 @@
 package com.foodrecipe.model;
 
 import com.google.gson.annotations.SerializedName;
-
+//ReceipPojo class
 public class ReceipPojo {
     @SerializedName("recipe_name")
     private
