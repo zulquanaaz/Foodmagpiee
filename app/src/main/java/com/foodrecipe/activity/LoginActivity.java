@@ -21,7 +21,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-
+//LoginActivity Class
 public class LoginActivity extends AppCompatActivity {
     TextView tv_username,tv_password,tv_forgetpwd,tv_newuser,tv_signup;
     EditText et_USERNAME,et_PWD;
