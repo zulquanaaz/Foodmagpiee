@@ -80,6 +80,7 @@ public class SearchReceipAdapter extends RecyclerView.Adapter<SearchReceipAdapte
 
     }
 
+    //To filter List
     public void filterList(ArrayList<ReceipPojo> filterdNames) {
         this.a1 = filterdNames;
         notifyDataSetChanged();
