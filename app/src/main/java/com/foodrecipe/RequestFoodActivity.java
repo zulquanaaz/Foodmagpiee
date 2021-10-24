@@ -100,7 +100,7 @@ public class RequestFoodActivity extends AppCompatActivity {
         });
     }
 
-
+//Displays items selected
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
