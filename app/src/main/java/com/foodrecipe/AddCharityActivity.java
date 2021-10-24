@@ -96,6 +96,7 @@ public class AddCharityActivity extends AppCompatActivity implements EasyPermiss
         });
 
     }
+    //Method for Result
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
