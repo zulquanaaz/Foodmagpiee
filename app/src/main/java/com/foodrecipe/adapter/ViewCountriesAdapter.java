@@ -14,7 +14,7 @@ import com.foodrecipe.R;
 import com.foodrecipe.model.ViewCountriesPojo;
 
 import java.util.List;
-
+//View Countries Adapter
 public class ViewCountriesAdapter extends BaseAdapter {
     List<ViewCountriesPojo> ar;
     Context cnt;
