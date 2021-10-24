@@ -1,7 +1,7 @@
 package com.foodrecipe.model;
 
 import com.google.gson.annotations.SerializedName;
-
+//Class TO View Recipies
 public class ViewRecipiesPojo {
     @SerializedName("id")
     private String id;
