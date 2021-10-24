@@ -7,6 +7,8 @@
     android:orientation="vertical"
     tools:context=".CharityHotelReplyActivity">
 
+    
+    
     <ListView
         android:layout_margin="10dp"
         android:id="@+id/charitymyrequests_list"
