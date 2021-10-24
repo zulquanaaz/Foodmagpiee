@@ -95,6 +95,7 @@ public class LoginActivity extends AppCompatActivity {
         btn_add.setTypeface(basicdt);
 
     }
+    //Adding Submit Method
         private void submitData(){
         String str=et_USERNAME.getText().toString();
         String str1=et_PWD.getText().toString();
