@@ -1,7 +1,7 @@
 package com.foodrecipe.model;
 
 import com.google.gson.annotations.SerializedName;
-
+//Class TO Edit Profile
 public class EditProfilePojo {
     @SerializedName("name")
     private String name ;
