@@ -1,7 +1,7 @@
 package com.foodrecipe.model;
 
 import com.google.gson.annotations.SerializedName;
-
+//Class to View Countries
 public class ViewCountriesPojo {
     @SerializedName("id")
     private String id;
