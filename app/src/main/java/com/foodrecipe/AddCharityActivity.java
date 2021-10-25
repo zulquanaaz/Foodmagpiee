@@ -136,7 +136,7 @@ public class AddCharityActivity extends AppCompatActivity implements EasyPermiss
         Log.d(TAG, "Permission has been denied");
 
     }
-
+//Method To Add Hotel
     private void addHotel() {
         progress = new ProgressDialog(AddCharityActivity.this);
         progress.setTitle("Loading");
