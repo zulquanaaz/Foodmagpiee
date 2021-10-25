@@ -25,7 +25,7 @@ import java.util.regex.Pattern;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-//Request Food Activity Class
+//Request Food Activity Class extend from AppCompatActivity
 public class RequestFoodActivity extends AppCompatActivity {
 
     EditText etname, etemail, etphone, etmessage;
