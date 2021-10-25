@@ -20,7 +20,7 @@ public class EditProfilePojo {
     private
     String pwd ;
 
-
+//A Setter Method
 
     EditProfilePojo(String name, String phone, String emailid, String pwd){
 
