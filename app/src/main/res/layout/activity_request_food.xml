@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequestFoodActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:src="@drawable/logo"
+
+        android:layout_marginTop="50px"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request Food"
+        android:textSize="30dp"
+
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Full Name"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:focusedByDefault="true"
+        />
+
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:editable="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:focusedByDefault="true"
+        />
+
+
+    <EditText
+        android:id="@+id/etphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:maxLength="10"
+        android:focusedByDefault="true"
+        />
+
+
+
+    <EditText
+        android:id="@+id/etmessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Message "
+        android:layout_marginTop="20dp"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        />
+
+
+
+    <Button
+        android:id="@+id/btnask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="Ask"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+</LinearLayout>
